@@ -110,6 +110,16 @@ b{
         text-transform: uppercase;
 
     }
+    .btun{
+        text-decoration: none;
+        font-size:100%;
+        color:  #ff6666;
+        padding: 7px 14px;
+        border-radius:9px;
+        border: solid #ff6666;
+        text-transform: uppercase;
+
+    }
     p{
         line-height: 170%;
     }
