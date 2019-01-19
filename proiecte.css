@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body, html{
+    height:100%;
+    margin:0;
+    font-family: 'Montserrat';
+}
+body{
+    background: #ffffff; 
+background: -moz-linear-gradient(45deg, #ffffff 0%, #38a330 0%, #38a330 0%, #ffffff 0%, #1cb244 38%, #138925 64%, #107513 76%, #0c5611 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #ffffff 0%,#38a330 0%,#38a330 0%,#ffffff 0%,#1cb244 38%,#138925 64%,#107513 76%,#0c5611 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #ffffff 0%,#38a330 0%,#38a330 0%,#ffffff 0%,#1cb244 38%,#138925 64%,#107513 76%,#0c5611 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0c5611',GradientType=1 );
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+main{
+    display:grid;
+    grid-template-columns:400px;
+    padding: 0 4px;
+    background: no-repeat;
+}
+.images{
+    display:grid;
+    grid-template-columns: auto 400px;
+    padding: 0 4px;
+    background: no-repeat;
+}
+.images img{
+    width: 465px;
+    height:300px;
+    padding:4px 4px;
+    margin-top:8px;
+    border-radius:20px;
+}
+.btn{
+    text-decoration:none;
+    vertical-align:middle;
+    font-size:150%;
+    color:red;
+    text-transform:uppercase;
+    
+    border-radius:9px;
+    padding:10px 20px;
+    border: solid red;
+    
+}
+.buton{
+    vertical-align: middle;
+    text-align: center;
+}
+
